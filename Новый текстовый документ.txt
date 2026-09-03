@@ -1,0 +1,12 @@
+a,b=map(int,input().split())
+znak=input("")
+if znak=="+":
+	print(a+b)
+elif znak=="-":
+	print(a-b)
+elif znak=="*":
+	print(a*b)
+elif znak=="/":
+	print(a/b)
+else:
+	print("вы не указали знак")
